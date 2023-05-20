@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(160deg,magenta,royalblue );
+    width: 800px;
+    height: 800px;
+    margin-top: 20px;
+    margin-left: 450px;
+    box-sizing: border-box;
+}
+.wrap{
+    background-color: white;
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    margin: 100px 100px;
+    border: 1px solid royalblue;
+}
+
+.q{
+    font-size: 100px;
+    color: gold;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.w{
+    color: gold;
+    margin-top: -180px;
+    margin-left: 80px;
+    font-size: 100px;
+}
+.e{
+    color: gold;
+    margin-top: -180px;
+    margin-left: 140px;
+    font-size: 100px;
+}
+.r{
+    color: royalblue;
+    margin-top: -180px;
+    margin-left: 180px;
+    font-size: 100px;
+}
+.t{
+    color: royalblue;
+    margin-top: -185px;
+    margin-left: 250px;
+    font-size: 100px;
+}
+.y{
+    color: royalblue;
+    margin-top: -180px;
+    margin-left: 270px;
+    font-size: 100px;
+}
+

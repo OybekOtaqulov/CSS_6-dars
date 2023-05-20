@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.row{
+width: 1200px;
+    height: 200px;
+    margin: 200px 150px;
+    background: linear-gradient(90deg,blue,green,yellow,orange,red);
+    border: 2px solid white;
+}
+.col{
+    color: gray;
+    font-size: 40px;
+    text-align: center;
+}
+

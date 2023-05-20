@@ -1,0 +1,45 @@
+.loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #222222;
+}
+.loader-block{
+    width: 200px;
+    height: 200px;
+    border: 10px solid greenyellow;
+    background: linear-gradient(45deg,red,yellow,green,blue);
+    position: relative;
+    left: 44%;
+    top: 40%;
+}
+@keyframes loader{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.loader-item{
+    position: absolute;
+    left: -110px;
+    top: -110px;
+    width: 200%;
+    height: 200%;
+    border-radius: 20px;
+    border-top: 10px solid red;
+    border-left: 10px solid blue;
+    border-right: 10px solid greenyellow;
+    border-bottom: 10px solid yellow;
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+h3{
+    margin-top: 350px;
+    margin-left: 900px;
+}

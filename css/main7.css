@@ -1,0 +1,14 @@
+body{
+height: 800px;
+}
+.col{
+    text-align: center;
+    width: 1700px;
+    height: 800px;
+    box-sizing: border-box;
+    padding-top: 320px;
+}
+.col{
+    text-align: center;
+    background: radial-gradient(360px,green,white,blue);
+}

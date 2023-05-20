@@ -1,0 +1,182 @@
+body{
+    background-color: #222222;
+}
+.qol{
+    width: 600px;
+    margin: 300px auto;
+    display: block;
+}
+.qol .barmoq:nth-child(1){
+    width: 100px;
+    height: 340px;
+    background-color: white;
+    border-radius: 30px 30px 40px 40px;
+    margin: 0 3px 10px;
+    display: inline-block;
+    animation-delay: 0.10s;
+    animation-name: qol;
+    animation-duration: 2.0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.qol .barmoq:nth-child(2){
+    width: 100px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px 30px 40px 40px;
+    margin: 0 3px -15px;
+    display: inline-block;
+    animation-delay: 0.20s;
+    animation-name: qol;
+    animation-duration: 2.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.qol .barmoq:nth-child(3){
+    width: 100px;
+    height: 480px;
+    background-color: white;
+    border-radius: 30px 30px 40px 40px;
+    margin: 0 3px -40px;
+    display: inline-block;
+    animation-delay: 0.30s;
+    animation-name: qol;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.qol .barmoq:nth-child(4){
+    width: 100px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px 30px 40px 40px;
+    margin: 0 3px -10px;
+    display: inline-block;
+    animation-delay: 0.40s;
+    animation-name: qol;
+    animation-duration: 2.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.tirnoq1{
+    width: 65px;
+    height: 70px;
+    background-color: royalblue;
+    border-radius: 20px 20px 40px 40px;
+    margin-left: 18px;
+    margin-top: 170px;
+}
+.tirnoq2{
+    width: 65px;
+    height: 70px;
+    background-color: royalblue;
+    border-radius: 20px 20px 40px 40px;
+    margin-left: 18px;
+    margin-top: 230px;
+}
+.tirnoq3{
+    width: 65px;
+    height: 70px;
+    background-color: royalblue;
+    border-radius: 20px 20px 40px 40px;
+    margin-left: 18px;
+    margin-top: 310px;
+}
+.tirnoq4{
+    width: 65px;
+    height: 70px;
+    background-color: royalblue;
+    border-radius: 20px 20px 40px 40px;
+    margin-left: 18px;
+    margin-top:230px;
+}
+.chiziq1{
+    width: 60px;
+    height: 15px;
+    background-color: royalblue;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.chiziq-1{
+    width: 60px;
+    height: 15px;
+    background-color: royalblue;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.chiziq2{
+    width: 60px;
+    height: 15px;
+    background-color: royalblue;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.chiziq-2{
+    width: 60px;
+    height: 15px;
+    background-color: royalblue;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.chiziq3{
+    width: 60px;
+    height: 15px;
+    background-color: royalblue;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.chiziq-3{
+    width: 60px;
+    height: 15px;
+    background-color: royalblue;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.chiziq4{
+    width: 60px;
+    height: 15px;
+    background-color: royalblue;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.chiziq-4{
+    width: 60px;
+    height: 15px;
+    background-color: royalblue;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.qol .barmoq:nth-child(5){
+    width: 130px;
+    height: 100px;
+    background-color: white;
+    border-radius: 0 40px 50px 0;
+    margin: 0 3px 50px;
+    display: inline-block;
+    animation-delay: 0.50s;
+    animation-name: qol;
+    animation-duration: 2.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.boshbarmoq{
+    width: 100px;
+    height: 20px;
+    background-color: royalblue;
+    margin-top: -20px;
+}
+
+@keyframes qol{
+    100%{
+        transform: translateY(60px);
+    }
+}
+
+
+
+
+
+
+
+
+

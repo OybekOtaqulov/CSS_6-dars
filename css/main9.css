@@ -1,0 +1,14 @@
+
+.wrap{
+    width: 1700px;
+    height: 900px;
+    background-color: white;
+}
+.row{
+    background: radial-gradient(red,yellow,green);
+    width: 700px;
+    height: 500px;
+    margin-left: 390px;
+    margin-top: 200px;
+}
+

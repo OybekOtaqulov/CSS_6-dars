@@ -1,0 +1,108 @@
+body{
+    background-color: dimgray;
+}
+.card{
+    width: 1200px;
+    margin: 200px auto;
+    display: block;
+}
+.card-item-1:hover{
+    transform: scale(1.2) rotate(-20deg);
+    transition: 1s;
+    z-index: 5;
+
+}
+.card-item-2:hover{
+    transform: scale(1.2) rotate(-10deg);
+    transition: 1s;
+    z-index: 4;
+}
+.card-item-3:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    z-index: 3;
+}
+.card-item-4:hover{
+    transform: scale(1.2) rotate(10deg);
+    transition: 1s;
+    z-index: 5;
+}
+.card-item-5:hover{
+    transform: scale(1.2) rotate(20deg);
+    transition: 1s;
+    z-index: 4;
+}
+.card-item-1{
+    width: 200px;
+    height: 470px;
+    border: 2px solid black;
+    background-color: white;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 170px;
+    left: 400px;
+    transform:  rotate(-20deg);
+    border-radius: 10px;
+}
+.card-item-2{
+    width: 200px;
+    height: 470px;
+    border: 2px solid black;
+    background-color: white;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    left: 480px;
+    transform:  rotate(-10deg);
+    border-radius: 10px;
+}
+.card-item-3{
+    width: 200px;
+    height: 470px;
+    border: 2px solid black;
+    background-color: white;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    top: 120px;
+    left: 645px;
+    border-radius: 10px;
+}
+.card-item-4{
+    width: 200px;
+    height: 470px;
+    border: 2px solid black;
+    background-color: white;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    left: 810px;
+    transform:  rotate(10deg);
+    border-radius: 10px;
+}
+.card-item-5{
+    width: 200px;
+    height: 470px;
+    border: 2px solid black;
+    background-color: white;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 160px;
+    left: 880px;
+    transform:  rotate(20deg);
+    border-radius: 10px;
+}
